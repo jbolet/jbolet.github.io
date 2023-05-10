@@ -1,0 +1,174 @@
+/* LAYOUT */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    max-width: 1200px;
+    margin: 0;
+}
+
+.blackbackground {
+    background-color: black;
+    color: white;
+    padding:20px 250px;
+}
+
+.whitebackground {
+    padding:20px 250px;
+}
+
+.Charactheristics_section {
+    display: flex;
+}
+
+.Charactheristics_box {
+    background-color: #CCCCCC;
+    flex: 1;
+    margin: 5px;
+}
+
+.Parts_description {
+    display: flex;
+    flex: 1fr;
+    padding: 20px;
+    column-gap: 20px;
+}
+
+/* HEADER AND MENU */
+
+#topnavigation {
+    background-color: black;
+    display: flex;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+}
+
+#topnavigation > div {
+    flex: 1;
+}
+
+#topmenu {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    list-style-type: none;
+}
+
+#topmenu li a {
+    padding-left: 24px;
+    padding-right: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#heroimage {
+    object-fit: fill;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/* TYPOGRAPHY */
+
+h1, h2, h3, h4, .logo, #topmenu, p.footer {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 16px;
+    color: #BFA416;
+}
+
+.subtitle_Charactheristics {
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.links {
+    text-decoration: underline;
+    color: white;
+}
+
+a:hover {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.Derechos_fuentes {
+    text-align: center;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.lista-caracteristicas {
+    text-align: center;
+}
+
+.blackbackground > p {
+    color: white;
+}
+
+span {
+    font-style: italic;
+}
+
+/* IMAGES */
+
+figure {
+    margin: 0;
+    justify-content: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #2B3030;
+    text-align: center;
+    font-weight: bold;
+    padding: 16px;
+    color: white;
+    margin: 0;
+}
